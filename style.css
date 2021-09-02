@@ -8,8 +8,9 @@ body{
 .login-container{
     margin-top: 15vh;
     margin-bottom: 15vh;
-    background-color: rgba(111, 66, 52, 0.4);
-    
+    background-color: rgba(111, 66, 52, 0.7);
+    box-shadow: 0 8px 32px 0 rgba(9, 35, 39, 0.6);
+    backdrop-filter: blur(100px);
     border-radius: 20px;
     width: 30%;
     height: 70vh;
@@ -32,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     width: auto;
-    padding: 3vh;
+    padding: 1vh;
     justify-content: center;
     color: rgba(235, 182, 92, 0.5);
 }
@@ -41,25 +42,25 @@ body{
     width: 70%;
     align-self: center;
     margin: 1vh;
+    background-color: rgba(235, 182, 92, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    border-color: rgba(235, 182, 92, 0.5);
 }
 
-#usuario-container{
+#usuario-container, #pass-container{
     display: flex;
     align-self: center;
     align-items: center;
-    margin: 2vh;
+    margin: 1.5vh;
     background-color: rgba(9, 35, 39, 0.8);
     border-radius: 10px;
+
 }
 
-#pass-container{
-    display: flex;
-    align-self: center;
-    align-items: center;
-    margin: 2vh;
-    background-color: rgb(9, 35, 39);
-    border-radius: 10px;
-}
 
 input{
     background-color: transparent;
@@ -71,4 +72,9 @@ input{
 .login-form i{
     font-size: 1.5rem;
     margin: 1rem;
+}
+
+.icon .ion-md-send{
+    background-color: rgba(9, 35, 39, 0.8);
+    margin: 0;
 }
