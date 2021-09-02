@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(/Login_Marcos/glass_coffee_light_cafe_115603_3840x2400.jpg);
+    background-size: 100%;
+
+}
+.login-container{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-color: rgba(111, 66, 52, 0.4);
+    
+    border-radius: 20px;
+    width: 30%;
+    height: 70vh;
+    
+}
+
+#brand-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+}
+
+.icon.ion-md-cafe{
+    font-size: 4rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 3vh;
+    justify-content: center;
+    color: rgba(235, 182, 92, 0.5);
+}
+
+.btn.btn-primary.btn-block.btn-large{
+    width: 70%;
+    align-self: center;
+    margin: 1vh;
+}
+
+#usuario-container{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin: 2vh;
+    background-color: rgba(9, 35, 39, 0.8);
+    border-radius: 10px;
+}
+
+#pass-container{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin: 2vh;
+    background-color: rgb(9, 35, 39);
+    border-radius: 10px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+    color: rgb(235, 182, 92);
+}
+
+.login-form i{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
